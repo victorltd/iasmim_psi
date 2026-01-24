@@ -413,3 +413,44 @@ a {
         font-size: 1.2rem;
     }
 }
+
+/* --- 14. Estilo do FAQ --- */
+.faq-item {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    overflow: hidden; /* Garante bordas arredondadas */
+}
+
+.faq-item summary {
+    padding: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none; /* Remove a setinha padrão feia */
+    position: relative;
+    color: var(--cor-principal-dark);
+}
+
+/* Criando um ícone de + personalizado */
+.faq-item summary::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: transform 0.3s;
+}
+
+/* Quando estiver aberto, vira um X (rotaciona) */
+.faq-item[open] summary::after {
+    transform: rotate(45deg);
+}
+
+.faq-content {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    color: var(--cor-texto-suave);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    border-top: 1px solid #f0f0f0;
+}
