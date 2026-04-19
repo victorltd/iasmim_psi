@@ -1,4 +1,13 @@
+# Robots.txt - Psicóloga Iasmim Borges
+# Otimizado para SEO
+
 User-agent: *
 Allow: /
 
-Sitemap: https://iasmimlara.com.br/sitemap.xml
+# Sitemap
+Sitemap: https://iasmimborges.com.br/sitemap.xml
+
+# Permitir indexação completa
+Allow: /assets/css/
+Allow: /assets/img/
+Disallow: /assets/js/
