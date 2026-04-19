@@ -3,262 +3,837 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Psicóloga Iasmim Lara | Terapia Online e Presencial</title>
-    <meta name="description" content="Psicoterapia para adolescentes e adultos com Iasmim Lara. Um espaço de acolhimento e escuta para ansiedade, autoconhecimento e relacionamentos. Agende sua consulta.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Iasmim Borges">
+    <meta name="theme-color" content="#6B8E88">
+    <meta name="msapplication-TileColor" content="#6B8E88">
 
+    <!-- Mobile Web App -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Psi. Iasmim Borges">
+    <meta name="application-name" content="Iasmim Borges Psicologia">
+
+    <!-- SEO Principal -->
+    <title>Psicóloga Iasmim Borges | Terapia Online para Ansiedade e Autoconhecimento</title>
+    <meta name="description" content="Psicóloga clínica CRP 21/06356. Psicoterapia online para adolescentes e adultos. Atendimento humanizado para ansiedade, autoestima e relacionamentos. Agende sua sessão.">
+    <meta name="keywords" content="psicóloga online, terapia online, psicoterapia, ansiedade, autoconhecimento, psicóloga CRP, terapia contextual, saúde mental, bem-estar emocional, psicóloga Petrolina PE">
+    <link rel="canonical" href="https://iasmimborges.com.br/">
+
+    <!-- Preconnect para performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://wa.me">
+    
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:title" content="Psicóloga Iasmim Borges | Terapia Online">
+    <meta property="og:description" content="Psicoterapia online para adolescentes e adultos. Um espaço de acolhimento e escuta profissional.">
+    <meta property="og:image" content="https://iasmimborges.com.br/assets/img/og-image.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Psicóloga Iasmim Borges - Terapia Online para Ansiedade e Autoconhecimento">
+    <meta property="og:url" content="https://iasmimborges.com.br">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Psicóloga Iasmim Borges">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Psicóloga Iasmim Borges | Terapia Online">
+    <meta name="twitter:description" content="Psicoterapia online para adolescentes e adultos.">
+    <meta name="twitter:image" content="https://iasmimborges.com.br/assets/img/og-image.svg">
+    <meta name="twitter:image:alt" content="Psicóloga Iasmim Borges - Terapia Online">
+
+    <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232C3E50%22/><text x=%2250%%22 y=%2255%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-family=%22'Playfair Display', serif%22 font-size=%2250%22 font-weight=%22700%22 fill=%22%23FAF9F6%22>IB</text></svg>"><body>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%234A635F%22/><text x=%2250%%22 y=%2255%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-family=%22serif%22 font-size=%2245%22 font-weight=%22700%22 fill=%22%23FAF9F6%22>IB</text></svg>">
+</head>
 
-    <header class="header">
+<body>
+    <!-- Skip Link para Acessibilidade -->
+    <a href="#main-content" class="skip-link" aria-label="Pular para o conteúdo principal">
+        Pular para o conteúdo principal
+    </a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
         <div class="container header-container">
-           <div class="logo">
-                Iasmim Lara<span class="dot">.</span>
-            </div>
+            <a href="#home" class="logo" aria-label="Ir para o início">
+                Iasmim Borges<span class="dot">.</span>
+            </a>
             
-            <div class="mobile-menu-icon" onclick="toggleMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
+            <button class="mobile-menu-icon" onclick="toggleMenu()" aria-label="Abrir menu de navegação" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
 
-            <nav class="nav">
+            <!-- Overlay para fechar menu ao clicar fora -->
+            <div class="nav-overlay" onclick="toggleMenu()" aria-hidden="true"></div>
+
+            <nav class="nav" role="navigation" aria-label="Menu principal">
                 <ul class="nav-list">
                     <li><a href="#home" onclick="toggleMenu()">Início</a></li>
-                    <li><a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
-                    <li><a href="#historia" onclick="toggleMenu()">Minha História</a></li>
+                    <li><a href="#sobre" onclick="toggleMenu()">Sobre Mim</a></li>
+                    <li><a href="#abordagem" onclick="toggleMenu()">Abordagem</a></li>
                     <li><a href="#como-funciona" onclick="toggleMenu()">Como Funciona</a></li>
+                    <li><a href="#faq" onclick="toggleMenu()">Dúvidas</a></li>
                     <li><a href="#contato" class="btn btn-small" onclick="toggleMenu()">Agendar</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section id="home" class="hero">
+    <main id="main-content" role="main">
+        <!-- ============================================
+             HERO SECTION
+             ============================================ -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
             <div class="container hero-container">
                 <div class="hero-content">
-                    <h1>Encontre clareza para seus desafios. Psicoterapia para jovens e adultos.</h1>
-                    <p>Ofereço um espaço de escuta e acolhimento para te ajudar a desenvolver ferramentas emocionais, fortalecer sua autoestima e construir uma vida com mais significado.</p>
-                    <a href="https://wa.me/5587981586596?text=Ol%C3%A1%2C%20Iasmim!%20Visitei%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20terapia." target="_blank" class="btn btn-primary">Falar com a psicóloga</a>
+                    <p class="hero-caption">Psicóloga Clínica • CRP 21/06356</p>
+                    <h1 id="hero-title">Psicoterapia Online para quem busca clareza e equilíbrio emocional</h1>
+                    <p class="hero-description">Ofereço um espaço seguro de escuta e acolhimento para te ajudar a desenvolver ferramentas emocionais, fortalecer sua autoestima e construir uma vida com mais significado.</p>
+                    <div class="hero-cta">
+                        <a href="https://wa.me/5587981586596?text=Ol%C3%A1%2C%20Iasmim!%20Visitei%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20psicoterapia." target="_blank" rel="noopener" class="btn btn-primary">
+                            Agendar conversa inicial
+                        </a>
+                        <span class="hero-cta-hint">Primeira conversa sem compromisso</span>
+                    </div>
                 </div>
                 <div class="hero-image">
-                    <img src="assets/img/recorte.png" alt="Psicóloga Iasmim Lara sorrindo" class="hero-img">
+                    <img
+                        src="assets/img/IMG_0196_a.jpg"
+                        alt="Iasmim Borges, psicóloga clínica especializada em terapia online"
+                        class="hero-img"
+                        width="500"
+                        height="600"
+                        loading="eager"
+                        fetchpriority="high"
+                        decoding="async"
+                    >
                 </div>
             </div>
         </section>
 
-        <section id="dores" class="dores">
+        <!-- ============================================
+             PARA QUEM É
+             ============================================ -->
+        <section id="para-quem" class="para-quem" aria-labelledby="para-quem-title">
             <div class="container">
-                <div class="section-header">
-                    <h2>Se você se sente assim, a terapia pode ajudar:</h2>
+                <header class="section-header">
+                    <h2 id="para-quem-title">Para quem é o meu atendimento</h2>
+                    <p>Atendo adolescentes (a partir de 14 anos) e adultos que buscam:</p>
+                </header>
+                <div class="para-quem-grid">
+                    <article class="para-quem-card">
+                        <span class="para-quem-icon" aria-hidden="true">🧠</span>
+                        <h3>Autoconhecimento</h3>
+                        <p>Entender melhor suas emoções, comportamentos e padrões de pensamento.</p>
+                    </article>
+                    <article class="para-quem-card">
+                        <span class="para-quem-icon" aria-hidden="true">💭</span>
+                        <h3>Lidar com Ansiedade</h3>
+                        <p>Desenvolver ferramentas para gerenciar preocupações excessivas e sintomas ansiosos.</p>
+                    </article>
+                    <article class="para-quem-card">
+                        <span class="para-quem-icon" aria-hidden="true">💔</span>
+                        <h3>Dificuldades em Relacionamentos</h3>
+                        <p>Melhorar a comunicação e os vínculos afetivos, familiares ou amorosos.</p>
+                    </article>
+                    <article class="para-quem-card">
+                        <span class="para-quem-icon" aria-hidden="true">🔄</span>
+                        <h3>Momentos de Transição</h3>
+                        <p>Apoio em mudanças de carreira, términos, luto ou novas fases da vida.</p>
+                    </article>
+                    <article class="para-quem-card">
+                        <span class="para-quem-icon" aria-hidden="true">💪</span>
+                        <h3>Autoestima e Segurança</h3>
+                        <p>Construir uma relação mais saudável consigo mesmo e fortalecer a confiança pessoal.</p>
+                    </article>
+                    <article class="para-quem-card">
+                        <span class="para-quem-icon" aria-hidden="true">😔</span>
+                        <h3>Tristeza e Desmotivação</h3>
+                        <p>Encontrar sentido e reconectar-se com o que traz significado à sua vida.</p>
+                    </article>
                 </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             DORES / IDENTIFICAÇÃO
+             ============================================ -->
+        <section id="dores" class="dores" aria-labelledby="dores-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="dores-title">Você se identifica com alguma dessas situações?</h2>
+                </header>
                 <div class="cards-grid">
                     <article class="card">
                         <h3>Sobrecarga e Estresse</h3>
-                        <p>...e sente que o peso das responsabilidades e da rotina está te esgotando.</p>
+                        <p>O peso das responsabilidades e da rotina está te esgotando física e emocionalmente.</p>
                     </article>
                     <article class="card">
                         <h3>Dúvidas e Insegurança</h3>
-                        <p>...e tem dificuldade em tomar decisões ou em confiar no seu potencial.</p>
+                        <p>Tem dificuldade em tomar decisões ou em confiar no seu próprio potencial.</p>
                     </article>
                     <article class="card">
-                        <h3>Conflitos e Desconexão</h3>
-                        <p>...e busca mais harmonia nos seus relacionamentos familiares ou amorosos.</p>
+                        <h3>Conflitos nos Relacionamentos</h3>
+                        <p>Busca mais harmonia e conexão nas suas relações familiares, amorosas ou sociais.</p>
                     </article>
                     <article class="card">
                         <h3>Vazio ou Desmotivação</h3>
-                        <p>...e sente que falta um propósito ou alegria no seu dia a dia.</p>
+                        <p>Parece faltar um propósito ou alegria genuína no seu dia a dia.</p>
                     </article>
                     <article class="card">
                         <h3>Instabilidade Emocional</h3>
-                        <p>...e sente que suas emoções mudam bruscamente ou são intensas demais para controlar no dia a dia.</p>
+                        <p>Suas emoções mudam bruscamente ou parecem intensas demais para lidar sozinho(a).</p>
                     </article>
                     <article class="card">
                         <h3>Padrões Repetitivos</h3>
-                        <p>...e percebe que acaba vivendo sempre as mesmas situações difíceis ou cometendo os mesmos erros.</p>
+                        <p>Percebe que vive sempre as mesmas situações difíceis ou comete os mesmos erros.</p>
+                    </article>
+                </div>
+                <div class="dores-cta">
+                    <p>Se você se identificou, saiba que <strong>não precisa enfrentar isso sozinho(a)</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SOBRE MIM
+             ============================================ -->
+        <section id="sobre" class="sobre" aria-labelledby="sobre-title">
+            <div class="container sobre-container">
+                <div class="sobre-image">
+                    <img
+                        src="assets/img/IMG_0173.jpg"
+                        alt="Psicóloga Iasmim Borges em atendimento humanizado"
+                        class="sobre-img"
+                        width="450"
+                        height="500"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                </div>
+                <div class="sobre-content">
+                    <h2 id="sobre-title">Prazer, eu sou a Iasmim Borges</h2>
+                    <p>Sou psicóloga clínica e acredito que buscar terapia é um <strong>ato de coragem e autocuidado</strong>. Meu papel é caminhar ao seu lado na construção de uma vida que faça sentido para você.</p>
+                    <p>Te ofereço um espaço confiável, acolhedor e livre de julgamentos. Minha experiência une o trabalho na <strong>Atenção Primária à Saúde</strong> com o atendimento clínico especializado para <strong>adolescentes e adultos</strong>.</p>
+                    <p class="sobre-crp">CRP 21/06356</p>
+                    <a href="#formacao" class="btn btn-outline">Ver minha formação</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             FORMAÇÃO E QUALIFICAÇÕES
+             ============================================ -->
+        <section id="formacao" class="formacao" aria-labelledby="formacao-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="formacao-title">Formação e Qualificações</h2>
+                    <p>Compromisso com atualização constante e prática baseada em evidências</p>
+                </header>
+                <div class="formacao-grid">
+                    <article class="formacao-card">
+                        <div class="formacao-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        </div>
+                        <div class="formacao-content">
+                            <span class="formacao-tag">Graduação</span>
+                            <h3>Psicologia</h3>
+                            <p class="formacao-instituicao">Universidade Federal do Vale do São Francisco (UNIVASF)</p>
+                        </div>
+                    </article>
+                    
+                    <article class="formacao-card">
+                        <div class="formacao-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        </div>
+                        <div class="formacao-content">
+                            <span class="formacao-tag formacao-tag-progress">Em andamento</span>
+                            <h3>Pós-Graduação em Terapias Contextuais</h3>
+                            <p class="formacao-instituicao">University of Miami</p>
+                        </div>
+                    </article>
+                    
+                    <article class="formacao-card">
+                        <div class="formacao-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                        </div>
+                        <div class="formacao-content">
+                            <span class="formacao-tag">Experiência</span>
+                            <h3>Atenção Primária à Saúde</h3>
+                            <p class="formacao-instituicao">Atuação no Sistema Único de Saúde (SUS)</p>
+                        </div>
+                    </article>
+                    
+                    <article class="formacao-card">
+                        <div class="formacao-icon formacao-icon-destaque" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                        </div>
+                        <div class="formacao-content">
+                            <span class="formacao-tag">Registro Profissional</span>
+                            <h3>CRP 21/06356</h3>
+                            <p class="formacao-instituicao">Conselho Regional de Psicologia</p>
+                        </div>
                     </article>
                 </div>
             </div>
         </section>
-        <section id="sobre" class="sobre">
-                    <div class="container sobre-container">
-                        <div class="sobre-image">
-                            <img src="assets/img/recorte.png" alt="Psicóloga Iasmim Borges" class="sobre-img">
-                        </div>
-                        <div class="sobre-content">
-                            <h2>Prazer, eu sou a Iasmim Borges</h2>
-                            <p>Defendo a ideia de que a psicoterapia é um <strong>ato de coragem</strong>, onde trabalhamos juntos na construção de um caminho rumo à vida que você valoriza.</p>
-                            <p>Como psicoterapeuta, te ofereço um espaço confiável, receptivo às suas questões e livre de julgamentos de qualquer espécie. Minha atuação une a experiência na <strong>Atenção Primária à Saúde</strong> com o atendimento clínico especializado para <strong>crianças e adolescentes</strong>.</p>
-                            <p style="font-size: 0.9rem; color: var(--cor-principal);">CRP 21/06356</p>
-                            <a href="#historia" class="btn btn-outline">Conheça minha trajetória</a>
-                        </div>
-                    </div>
+
+        <!-- ============================================
+             ABORDAGEM TERAPÊUTICA
+             ============================================ -->
+        <section id="abordagem" class="abordagem" aria-labelledby="abordagem-title">
+            <div class="container abordagem-container">
+                <header class="section-header section-header-left">
+                    <h2 id="abordagem-title">Minha Abordagem: Terapias Contextuais</h2>
+                </header>
+                <div class="abordagem-content">
+                    <p>Trabalho com as <strong>Terapias Contextuais</strong>, uma abordagem baseada em evidências científicas. Acreditamos que todo comportamento — mesmo aqueles que parecem problemáticos — tem uma função e um contexto.</p>
+                    
+                    <p>Meu trabalho consiste em te auxiliar a compreender como seus pensamentos, emoções e ações se desenvolveram ao longo da sua história e quais circunstâncias atuais os mantêm.</p>
+                    
+                    <p>Essa abordagem permite uma compreensão sensível do desenvolvimento humano e a clareza de que o cuidado efetivo precisa considerar o <strong>contexto social, cultural e a singularidade</strong> de cada pessoa.</p>
+
+                    <blockquote class="abordagem-quote">
+                        <p>"A pergunta que guia minha prática é: como posso, através do acolhimento e do conhecimento técnico, facilitar mudanças que sejam genuinamente significativas para você?"</p>
+                    </blockquote>
+                </div>
+            </div>
         </section>
 
-<section id="historia" style="padding: 80px 0; background-color: #fff;">
-            <div class="container" style="max-width: 850px; text-align: left;">
-                <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
-                    <h2 style="font-size: 2.2rem; color: var(--cor-principal-dark);">Ciência, Ética e Acolhimento</h2>
-                </div>
-                <div style="font-size: 1.1rem; color: var(--cor-texto); line-height: 1.8;">
-                    
-            
-            <p style="margin-bottom: 1.5rem;">
-                Como dito acima, minha abordagem é a das <strong>Terapias Contextuais</strong>. Mas o que isso significa na prática? Acreditamos que todo comportamento — mesmo aqueles que parecem problemáticos — tem uma função. Por isso, meu trabalho consiste em te auxiliar a compreender como seus pensamentos, emoções e ações se desenvolveram ao longo da sua história e quais circunstâncias atuais os mantêm.
-            </p>
-
-            <p style="margin-bottom: 1.5rem;">
-                Além de trabalhar como psicoterapeuta para adultos, atendo crianças e adolescentes com <strong>transtornos do neurodesenvolvimento</strong> e atuo na <strong>Atenção Primária à Saúde</strong>.
-            </p>
-
-            <p style="margin-bottom: 1.5rem;">
-                Essa experiência multifacetada me possibilita uma visão sensível do desenvolvimento humano e a compreensão de que o processo de cuidar é mais complexo do que apenas lidar com diagnósticos. Para ser efetivo, o trabalho de saúde mental precisa considerar o <strong>ambiente social, cultural e a subjetividade</strong> de cada um.
-            </p>
-
-            <div style="margin-top: 3rem; padding: 2rem; background-color: var(--cor-fundo); border-left: 4px solid var(--cor-destaque); border-radius: 0 12px 12px 0;">
-                <p style="font-family: var(--fonte-titulo); font-size: 1.25rem; font-style: italic; color: var(--cor-principal-dark); margin: 0;">
-                    "Finalmente, a pergunta que guia minha prática é: como o meu conhecimento e acolhimento podem provocar mudanças que são significativas para cada paciente?"
-                </p>
-            </div>
-            
-        </div>
-    </div>
-</section>
-        <section id="como-funciona" class="processo">
+        <!-- ============================================
+             TERAPIA ONLINE - BENEFÍCIOS
+             ============================================ -->
+        <section id="terapia-online" class="terapia-online" aria-labelledby="terapia-online-title">
             <div class="container">
-                <div class="section-header">
-                    <h2>Sua Jornada de Cuidado</h2>
+                <div class="terapia-online-grid">
+                    <div class="terapia-online-content">
+                        <h2 id="terapia-online-title">Por que escolher a terapia online?</h2>
+                        <p class="terapia-online-intro">O atendimento online permite que você cuide da sua saúde mental com praticidade, sem abrir mão da qualidade.</p>
+                        
+                        <ul class="beneficios-lista">
+                            <li>
+                                <span class="check-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </span>
+                                <div>
+                                    <strong>Mesma eficácia do presencial</strong>
+                                    <p>Estudos científicos comprovam resultados equivalentes para a maioria das demandas.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </span>
+                                <div>
+                                    <strong>Conforto e privacidade</strong>
+                                    <p>Faça suas sessões de qualquer lugar seguro e reservado que você escolher.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </span>
+                                <div>
+                                    <strong>Economia de tempo</strong>
+                                    <p>Sem deslocamento, trânsito ou sala de espera. Mais praticidade na sua rotina.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </span>
+                                <div>
+                                    <strong>Flexibilidade de horários</strong>
+                                    <p>Mais opções de horários para encaixar as sessões na sua agenda.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </span>
+                                <div>
+                                    <strong>Atendimento em todo o Brasil</strong>
+                                    <p>Não importa onde você esteja — a distância não é mais uma barreira.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="terapia-online-visual">
+                        <div class="terapia-online-card">
+                            <div class="terapia-online-card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            </div>
+                            <h3>Como funciona?</h3>
+                            <p>As sessões acontecem por <strong>videochamada</strong>, em plataforma segura. Você só precisa de:</p>
+                            <ul>
+                                <li>Um dispositivo com câmera (celular, tablet ou computador)</li>
+                                <li>Conexão estável de internet</li>
+                                <li>Um ambiente privado e tranquilo</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             MITOS SOBRE TERAPIA
+             ============================================ -->
+        <section id="mitos" class="mitos" aria-labelledby="mitos-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="mitos-title">Mitos sobre fazer terapia</h2>
+                    <p>Informações que ajudam a tomar uma decisão consciente</p>
+                </header>
+                <div class="mitos-grid">
+                    <article class="mito-card">
+                        <div class="mito-header">
+                            <span class="mito-icon" aria-hidden="true">✕</span>
+                            <h3>"Terapia é só para quem tem problemas graves"</h3>
+                        </div>
+                        <p>A psicoterapia é um recurso de <strong>autocuidado e prevenção</strong>. Você não precisa estar em crise para buscar ajuda — o autoconhecimento beneficia qualquer pessoa que deseja viver melhor.</p>
+                    </article>
+                    <article class="mito-card">
+                        <div class="mito-header">
+                            <span class="mito-icon" aria-hidden="true">✕</span>
+                            <h3>"Se eu precisar de terapia, sou fraco"</h3>
+                        </div>
+                        <p>Pelo contrário: <strong>reconhecer que precisa de apoio e buscá-lo é um ato de coragem</strong> e responsabilidade consigo mesmo. Força também é saber pedir ajuda.</p>
+                    </article>
+                    <article class="mito-card">
+                        <div class="mito-header">
+                            <span class="mito-icon" aria-hidden="true">✕</span>
+                            <h3>"Posso resolver tudo sozinho(a)"</h3>
+                        </div>
+                        <p>Ter uma <strong>perspectiva externa e profissional</strong> ajuda a enxergar padrões e pontos cegos que sozinhos não conseguimos perceber. É como tentar ver a própria nuca.</p>
+                    </article>
+                    <article class="mito-card">
+                        <div class="mito-header">
+                            <span class="mito-icon" aria-hidden="true">✕</span>
+                            <h3>"Terapia demora muito para funcionar"</h3>
+                        </div>
+                        <p>Cada pessoa tem seu ritmo, mas <strong>muitos percebem benefícios já nas primeiras sessões</strong>. O importante é a constância e o comprometimento com o processo.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             DIFERENCIAIS
+             ============================================ -->
+        <section id="diferenciais" class="diferenciais" aria-labelledby="diferenciais-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="diferenciais-title">Compromissos do meu atendimento</h2>
+                    <p>Princípios que guiam cada sessão</p>
+                </header>
+                <div class="diferenciais-grid">
+                    <article class="diferencial-card">
+                        <div class="diferencial-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <h3>Sigilo Absoluto</h3>
+                        <p>Tudo o que é compartilhado em sessão permanece protegido, conforme o Código de Ética do Psicólogo.</p>
+                    </article>
+                    <article class="diferencial-card">
+                        <div class="diferencial-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                        </div>
+                        <h3>Base Científica</h3>
+                        <p>Abordagem fundamentada em evidências e atualização profissional constante.</p>
+                    </article>
+                    <article class="diferencial-card">
+                        <div class="diferencial-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                        </div>
+                        <h3>Acolhimento Sem Julgamento</h3>
+                        <p>Um espaço seguro onde você pode ser autêntico(a) e vulnerável sem medo.</p>
+                    </article>
+                    <article class="diferencial-card">
+                        <div class="diferencial-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </div>
+                        <h3>Respeito ao Seu Ritmo</h3>
+                        <p>Cada pessoa tem seu tempo. O processo terapêutico é construído de forma individualizada.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             COMO FUNCIONA
+             ============================================ -->
+        <section id="como-funciona" class="processo" aria-labelledby="processo-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="processo-title">Sua jornada de cuidado</h2>
+                    <p>Um processo simples e acolhedor, do primeiro contato à sua evolução</p>
+                </header>
                 <div class="steps-grid">
-                    <div class="step">
-                        <span class="step-number">01</span>
-                        <h3>Bate-papo Inicial</h3>
-                        <p>Uma conversa inicial gratuita para nos conhecermos e tirar dúvidas.</p>
-                    </div>
-                    <div class="step">
-                        <span class="step-number">02</span>
+                    <article class="step">
+                        <span class="step-number" aria-hidden="true">01</span>
+                        <h3>Conversa Inicial</h3>
+                        <p>Entramos em contato pelo WhatsApp para uma breve conversa, esclarecer dúvidas e verificar se faz sentido começarmos juntos.</p>
+                    </article>
+                    <article class="step">
+                        <span class="step-number" aria-hidden="true">02</span>
                         <h3>Sessões Semanais</h3>
-                        <p>Encontros online de 50 minutos, com sigilo e conforto total.</p>
-                    </div>
-                    <div class="step">
-                        <span class="step-number">03</span>
+                        <p>Encontros online de 50 minutos por videochamada, em plataforma segura, no conforto da sua casa.</p>
+                    </article>
+                    <article class="step">
+                        <span class="step-number" aria-hidden="true">03</span>
                         <h3>Sua Evolução</h3>
-                        <p>Um caminho construído em conjunto, respeitando seu ritmo e objetivos.</p>
-                    </div>
+                        <p>Um caminho construído em parceria, respeitando seus objetivos, seu ritmo e sua singularidade.</p>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section id="instagram-cta" style="padding: 60px 0; background-color: white; border-top: 1px solid #eee;">
-            <div class="container" style="text-align: center;">
-                <div style="margin-bottom: 20px;">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--cor-destaque)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                </div>
-                <h2 style="font-size: 1.8rem; margin-bottom: 10px;">Acompanhe meu dia a dia</h2>
-                <p style="color: var(--cor-texto-suave); margin-bottom: 25px; max-width: 500px; margin-left: auto; margin-right: auto;">
-                    No meu Instagram, compartilho reflexões diárias sobre saúde mental, autoconhecimento e bem-estar.
-                </p>
-                <a href="https://instagram.com/iasmimborgespsi" target="_blank" style="color: var(--cor-destaque); font-weight: 700; text-decoration: underline;">@iasmimborgespsi</a>
-            </div>
-        </section>
-
-        <section id="faq" style="padding: 80px 0; background-color: var(--cor-fundo);">
+        <!-- ============================================
+             FAQ
+             ============================================ -->
+        <section id="faq" class="faq" aria-labelledby="faq-title">
             <div class="container">
-                <div class="section-header">
-                    <h2>Dúvidas Frequentes</h2>
-                    <p style="max-width: 600px; margin: 0 auto; color: var(--cor-texto-suave);">
-                        Entenda melhor como funciona o processo terapêutico e sinta-se seguro para começar.
-                    </p>
-                </div>
+                <header class="section-header">
+                    <h2 id="faq-title">Dúvidas Frequentes</h2>
+                    <p>Informações para você se sentir seguro(a) antes de começar</p>
+                </header>
 
-                <div class="faq-grid" style="max-width: 800px; margin: 40px auto 0;">
-                    
+                <div class="faq-grid">
                     <details class="faq-item">
-                        <summary>Você aceita convênio ou plano de saúde?</summary>
+                        <summary>A terapia online é realmente eficaz?</summary>
                         <div class="faq-content">
-                            <p>Atualmente meus atendimentos são particulares. No entanto, emito recibo para que você possa solicitar o <strong>reembolso</strong> junto ao seu plano de saúde, caso essa modalidade esteja disponível no seu contrato.</p>
+                            <p>Sim. Estudos científicos demonstram que a psicoterapia online tem eficácia equivalente ao atendimento presencial para a maioria das demandas. A vantagem é a flexibilidade: você pode fazer as sessões do conforto da sua casa, economizando tempo de deslocamento. Basta ter um local reservado e uma boa conexão de internet.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
                         <summary>Como funciona o sigilo das sessões?</summary>
                         <div class="faq-content">
-                            <p>O sigilo é absoluto e é um pilar ético da psicologia. Tudo o que é falado em sessão permanece em sessão, garantindo um espaço seguro e livre de julgamentos para você.</p>
+                            <p>O sigilo é um princípio ético fundamental da psicologia, garantido pelo Código de Ética Profissional do Psicólogo. Tudo o que você compartilhar em sessão permanece absolutamente confidencial, criando um espaço seguro para que você possa se expressar livremente.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>Qual o valor da consulta?</summary>
+                        <summary>Você aceita convênio ou plano de saúde?</summary>
                         <div class="faq-content">
-                            <p>O valor é acordado mediante a tabela de honorários do Conselho Federal de Psicologia, mas levo em conta a realidade de cada paciente. Entre em contato pelo WhatsApp para conversarmos sobre valores e disponibilidade.</p>
+                            <p>Atualmente, meus atendimentos são particulares. No entanto, emito recibo que pode ser utilizado para solicitar <strong>reembolso</strong> junto ao seu plano de saúde, caso essa modalidade esteja prevista no seu contrato. Recomendo verificar diretamente com sua operadora.</p>
                         </div>
                     </details>
 
                     <details class="faq-item">
-                        <summary>A terapia online funciona mesmo?</summary>
+                        <summary>Qual o valor e a forma de pagamento?</summary>
                         <div class="faq-content">
-                            <p>Sim! Estudos comprovam que a eficácia é a mesma do presencial. A vantagem é que você pode fazer do conforto da sua casa, economizando tempo de deslocamento, desde que tenha um local privado e boa conexão de internet.</p>
+                            <p>O valor da sessão segue como referência a tabela do Conselho Federal de Psicologia, porém considero a realidade de cada pessoa. Entre em contato pelo WhatsApp para conversarmos sobre valores, formas de pagamento e disponibilidade de horários.</p>
                         </div>
                     </details>
 
+                    <details class="faq-item">
+                        <summary>Com qual frequência devo fazer terapia?</summary>
+                        <div class="faq-content">
+                            <p>A frequência mais comum e recomendada é <strong>uma sessão por semana</strong>. Isso permite continuidade no processo terapêutico e tempo suficiente para reflexão entre os encontros. A frequência pode ser ajustada conforme sua necessidade e momento do tratamento.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Como sei se preciso de terapia?</summary>
+                        <div class="faq-content">
+                            <p>Se você sente que algo não está bem, que enfrenta dificuldades emocionais recorrentes, ou simplesmente deseja se conhecer melhor, a terapia pode ser um recurso valioso. Não é necessário estar em crise para buscar ajuda — o autocuidado também é prevenção.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Quanto tempo dura um processo terapêutico?</summary>
+                        <div class="faq-content">
+                            <p>Não existe um tempo predeterminado. A duração varia conforme seus objetivos, demandas e o ritmo do seu processo. Algumas pessoas buscam a terapia para questões pontuais, outras para um trabalho mais profundo de autoconhecimento. Isso é avaliado e conversado ao longo do caminho.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Posso cancelar ou remarcar uma sessão?</summary>
+                        <div class="faq-content">
+                            <p>Sim. Peço apenas que o cancelamento ou remarcação seja comunicado com <strong>pelo menos 24 horas de antecedência</strong>. Isso permite reorganizar a agenda e oferecer o horário a outra pessoa que precise.</p>
+                        </div>
+                    </details>
                 </div>
             </div>
         </section>
 
-        <section id="contato" class="cta-final">
+        <!-- ============================================
+             INSTAGRAM CTA
+             ============================================ -->
+        <section id="instagram-cta" class="instagram-cta" aria-labelledby="instagram-title">
+            <div class="container instagram-container">
+                <div class="instagram-icon" aria-hidden="true">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </div>
+                <h2 id="instagram-title">Conteúdo sobre saúde mental</h2>
+                <p>No meu Instagram, compartilho reflexões sobre autoconhecimento, bem-estar emocional e psicologia.</p>
+                <a href="https://instagram.com/iasmimborgespsi" target="_blank" rel="noopener" class="instagram-link">
+                    @iasmimborgespsi
+                </a>
+            </div>
+        </section>
+
+        <!-- ============================================
+             CTA FINAL
+             ============================================ -->
+        <section id="contato" class="cta-final" aria-labelledby="cta-title">
             <div class="container">
-                <h2>O cuidado com a sua saúde mental não pode esperar.</h2>
-                <p>Investir em você é a decisão mais importante. Vamos conversar?</p>
-                <a href="https://wa.me/5587981586596?text=Ol%C3%A1%2C%20Iasmim!%20Visitei%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20terapia." target="_blank" class="btn btn-primary">Agendar conversa no WhatsApp</a>
+                <h2 id="cta-title">Cuidar da sua saúde mental é um ato de coragem</h2>
+                <p>Se algo aqui fez sentido para você, pode ser um sinal de que está pronto(a) para começar. O primeiro passo é sempre o mais importante.</p>
+                <a href="https://wa.me/5587981586596?text=Ol%C3%A1%2C%20Iasmim!%20Visitei%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20psicoterapia." target="_blank" rel="noopener" class="btn btn-primary btn-large">
+                    Iniciar conversa no WhatsApp
+                </a>
             </div>
         </section>
     </main>
 
-<footer class="footer">
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer" role="contentinfo">
         <div class="container footer-content">
-            <div style="margin-bottom: 20px;">
-                <p style="font-weight: 600; font-size: 1.1rem; margin-bottom: 5px;">Iasmim Lara</p>
-                <p style="opacity: 0.8;">Psicóloga Clínica • CRP 21/06356</p>
+            <div class="footer-info">
+                <p class="footer-name">Iasmim Borges</p>
+                <p class="footer-role">Psicóloga Clínica • CRP 21/06356</p>
             </div>
             
-            <div style="max-width: 600px; margin: 0 auto 20px; font-size: 0.8rem; opacity: 0.7; line-height: 1.4;">
-                <p>Este site respeita a Lei Geral de Proteção de Dados (LGPD). As informações enviadas via formulário ou WhatsApp são tratadas com total sigilo e proteção, conforme o Código de Ética Profissional do Psicólogo.</p>
+            <div class="footer-legal">
+                <p>Este site respeita o Código de Ética Profissional do Psicólogo e a Lei Geral de Proteção de Dados (LGPD). As informações compartilhadas são tratadas com sigilo e proteção.</p>
             </div>
 
-            <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
-                <p>&copy; 2026 Iasmim Lara Psicologia. Todos os direitos reservados.</p>
+            <div class="footer-copy">
+                <p>&copy; <span id="current-year"></span> Iasmim Borges Psicologia. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
 
-    <a href="https://wa.me/5587981586596?text=Ol%C3%A1%2C%20Iasmim!%20Visitei%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20terapia." class="whatsapp-float" target="_blank" aria-label="Falar no WhatsApp">
-        Whatsapp
+    <!-- ============================================
+         BOTÃO WHATSAPP FLUTUANTE
+         ============================================ -->
+    <a href="https://wa.me/5587981586596?text=Ol%C3%A1%2C%20Iasmim!%20Visitei%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20psicoterapia." 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener" 
+       aria-label="Enviar mensagem no WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span>WhatsApp</span>
     </a>
 
-    <script src="assets/js/main.js"></script>
+    <!-- JavaScript -->
+    <script src="assets/js/main.js" defer></script>
     
+    <!-- ============================================
+         SCHEMA.ORG - DADOS ESTRUTURADOS
+         ============================================ -->
+    
+    <!-- Schema.org - Psicóloga -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "Physician", 
-      "name": "Psicóloga Iasmim Lara",
-      "image": "assets/img/recorte.png",
-      "@id": "https://iasmimlara.com.br",
-      "url": "https://iasmimlara.com.br",
-      "telephone": "+5587981586596", 
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Atendimento Online e Presencial",
-        "addressCountry": "BR"
-      },
-      "medicalSpecialty": "Psychology",
-      "priceRange": "$$"
+        "@context": "https://schema.org",
+        "@type": "Psychologist",
+        "@id": "https://iasmimborges.com.br",
+        "name": "Psicóloga Iasmim Borges",
+        "description": "Psicóloga clínica especializada em psicoterapia online para adolescentes e adultos. Atendimento humanizado baseado em Terapias Contextuais para ansiedade, autoconhecimento e bem-estar emocional.",
+        "url": "https://iasmimborges.com.br",
+        "image": "https://iasmimborges.com.br/assets/img/perfil.png",
+        "telephone": "+5587981586596",
+        "priceRange": "$$",
+        "gender": "Female",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Petrolina",
+            "addressRegion": "PE",
+            "addressCountry": "BR"
+        },
+        "areaServed": [
+            {
+                "@type": "Country",
+                "name": "Brasil"
+            },
+            {
+                "@type": "City",
+                "name": "Petrolina",
+                "sameAs": "https://pt.wikipedia.org/wiki/Petrolina"
+            },
+            {
+                "@type": "State",
+                "name": "Pernambuco"
+            }
+        ],
+        "serviceType": ["Psicoterapia Online", "Terapia Cognitivo-Comportamental", "Acompanhamento Psicológico"],
+        "medicalSpecialty": "Psychology",
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Registro Profissional",
+            "identifier": "CRP 21/06356",
+            "recognizedBy": {
+                "@type": "Organization",
+                "name": "Conselho Regional de Psicologia",
+                "url": "https://www.crpp.org.br"
+            }
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Universidade Federal do Vale do São Francisco",
+                "alternateName": "UNIVASF",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "BR"
+                }
+            }
+        ],
+        "knowsAbout": [
+            "Ansiedade",
+            "Autoconhecimento",
+            "Autoestima",
+            "Depressão",
+            "Relacionamentos",
+            "Terapias Contextuais",
+            "Saúde Mental",
+            "Bem-estar Emocional"
+        ],
+        "sameAs": [
+            "https://instagram.com/iasmimborgespsi"
+        ],
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "20:00"
+        },
+        "isAcceptingNewPatients": true,
+        "availableLanguage": "Portuguese"
+    }
+    </script>
+
+    <!-- Schema.org - FAQ Page (Rich Snippets) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://iasmimborges.com.br/#faq",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "A terapia online é realmente eficaz?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim. Estudos científicos demonstram que a psicoterapia online tem eficácia equivalente ao atendimento presencial para a maioria das demandas. A vantagem é a flexibilidade: você pode fazer as sessões do conforto da sua casa, economizando tempo de deslocamento."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Como funciona o sigilo das sessões?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "O sigilo é um princípio ético fundamental da psicologia, garantido pelo Código de Ética Profissional do Psicólogo. Tudo o que você compartilhar em sessão permanece absolutamente confidencial."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Você aceita convênio ou plano de saúde?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Atualmente, meus atendimentos são particulares. No entanto, emito recibo que pode ser utilizado para solicitar reembolso junto ao seu plano de saúde, caso essa modalidade esteja prevista no seu contrato."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Qual o valor e a forma de pagamento?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "O valor da sessão segue como referência a tabela do Conselho Federal de Psicologia, porém considero a realidade de cada pessoa. Entre em contato para conversarmos sobre valores, formas de pagamento e disponibilidade de horários."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Com qual frequência devo fazer terapia?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A frequência mais comum e recomendada é uma sessão por semana. Isso permite continuidade no processo terapêutico e tempo suficiente para reflexão entre os encontros."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Como sei se preciso de terapia?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Se você sente que algo não está bem, que enfrenta dificuldades emocionais recorrentes, ou simplesmente deseja se conhecer melhor, a terapia pode ser um recurso valioso."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Quanto tempo dura um processo terapêutico?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Não existe um tempo predeterminado. A duração varia conforme seus objetivos, demandas e o ritmo do seu processo. Algumas pessoas buscam a terapia para questões pontuais, outras para um trabalho mais profundo de autoconhecimento."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Posso cancelar ou remarcar uma sessão?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim. Peço apenas que o cancelamento ou remarcação seja comunicado com pelo menos 24 horas de antecedência."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema.org - WebSite (Search Action) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://iasmimborges.com.br/#website",
+        "url": "https://iasmimborges.com.br",
+        "name": "Psicóloga Iasmim Borges",
+        "description": "Psicoterapia online para adolescentes e adultos",
+        "inLanguage": "pt-BR",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://iasmimborges.com.br/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- Schema.org - BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://iasmimborges.com.br/#breadcrumb",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://iasmimborges.com.br"
+            }
+        ]
     }
     </script>
 </body>

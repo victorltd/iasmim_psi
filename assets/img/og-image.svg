@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F7F5F0"/>
+  
+  <!-- Decorative elements -->
+  <rect x="0" y="0" width="1200" height="8" fill="#6B8E88"/>
+  <circle cx="100" cy="550" r="80" fill="#6B8E88" opacity="0.1"/>
+  <circle cx="1100" cy="80" r="120" fill="#6B8E88" opacity="0.08"/>
+  
+  <!-- Logo/Initials -->
+  <rect x="80" y="80" width="80" height="80" rx="16" fill="#4A635F"/>
+  <text x="120" y="135" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#FAF9F6" text-anchor="middle">IB</text>
+  
+  <!-- Main content -->
+  <text x="600" y="240" font-family="Georgia, serif" font-size="56" font-weight="600" fill="#4A635F" text-anchor="middle">Psicóloga Iasmim Borges</text>
+  
+  <text x="600" y="310" font-family="Arial, sans-serif" font-size="28" fill="#6B8E88" text-anchor="middle">CRP 21/06356</text>
+  
+  <line x1="400" y1="340" x2="800" y2="340" stroke="#D48C70" stroke-width="3"/>
+  
+  <text x="600" y="400" font-family="Arial, sans-serif" font-size="32" fill="#333333" text-anchor="middle">Terapia Online • Ansiedade • Autoconhecimento</text>
+  
+  <text x="600" y="470" font-family="Arial, sans-serif" font-size="24" fill="#666666" text-anchor="middle">Atendimento humanizado para adolescentes e adultos</text>
+  
+  <!-- Website URL -->
+  <text x="600" y="560" font-family="Arial, sans-serif" font-size="22" fill="#4A635F" text-anchor="middle">iasmimborges.com.br</text>
+</svg>
