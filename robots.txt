@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://iasmimborges.com.br/sitemap.xml
+Sitemap: https://iasmimborgespsi.com.br/sitemap.xml
 
 # Permitir indexação completa
 Allow: /assets/css/
