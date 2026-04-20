@@ -1,13 +1,168 @@
-# Robots.txt - Psicóloga Iasmim Borges
-# Otimizado para SEO
+# ============================================
+# ROBOTS.TXT - Psicóloga Iasmim Borges
+# Última atualização: Abril 2025
+# Site: https://iasmimborgespsi.com.br
+# ============================================
 
+# --------------------------------------------
+# REGRAS GERAIS (Todos os robôs)
+# --------------------------------------------
 User-agent: *
 Allow: /
 
-# Sitemap
+# Permitir indexação de todos os recursos
+# (Importante para renderização correta)
+Allow: /assets/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/img/
+
+# Bloquear apenas arquivos desnecessários
+Disallow: /*.pdf$
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /_*
+
+# --------------------------------------------
+# GOOGLEBOT (Principal)
+# --------------------------------------------
+User-agent: Googlebot
+Allow: /
+Allow: /assets/
+Crawl-delay: 1
+
+# --------------------------------------------
+# GOOGLEBOT IMAGES
+# --------------------------------------------
+User-agent: Googlebot-Image
+Allow: /assets/img/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# --------------------------------------------
+# GOOGLE ADS BOT
+# Importante para Quality Score
+# --------------------------------------------
+User-agent: AdsBot-Google
+Allow: /
+Allow: /assets/
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+Allow: /assets/
+
+# --------------------------------------------
+# BING / MICROSOFT
+# --------------------------------------------
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: msnbot
+Allow: /
+Crawl-delay: 2
+
+# --------------------------------------------
+# OUTROS BOTS DE BUSCA
+# --------------------------------------------
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 5
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 3
+
+# --------------------------------------------
+# REDES SOCIAIS (Permitir preview)
+# --------------------------------------------
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# --------------------------------------------
+# BOTS DE SEO / ANÁLISE (Permitir)
+# --------------------------------------------
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+User-agent: Semrushbot
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 10
+
+# --------------------------------------------
+# BLOQUEAR BOTS MALICIOSOS / SPAM
+# --------------------------------------------
+User-agent: SemrushBot-BA
+Disallow: /
+
+User-agent: AhrefsSiteAudit
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: AspiegelBot
+Disallow: /
+
+# --------------------------------------------
+# BLOQUEAR SCRAPERS DE IA (Opcional)
+# Descomente se não quiser treinar IAs
+# --------------------------------------------
+# User-agent: GPTBot
+# Disallow: /
+
+# User-agent: ChatGPT-User
+# Disallow: /
+
+# User-agent: CCBot
+# Disallow: /
+
+# User-agent: anthropic-ai
+# Disallow: /
+
+# User-agent: Google-Extended
+# Disallow: /
+
+# --------------------------------------------
+# SITEMAPS
+# --------------------------------------------
 Sitemap: https://iasmimborgespsi.com.br/sitemap.xml
 
-# Permitir indexação completa
-Allow: /assets/css/
-Allow: /assets/img/
-Disallow: /assets/js/
+# --------------------------------------------
+# INFORMAÇÕES DE CONTATO (Para crawlers)
+# --------------------------------------------
+# Site da Psicóloga Iasmim Borges
+# CRP 21/06356
+# Terapia Online para todo o Brasil
+# Contato: +55 87 98158-6596
