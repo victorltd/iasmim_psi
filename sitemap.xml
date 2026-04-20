@@ -1,25 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- ============================================
+         PÁGINA PRINCIPAL (Homepage)
+         ============================================ -->
     <url>
         <loc>https://iasmimborgespsi.com.br/</loc>
         <lastmod>2025-04-13</lastmod>
-        <changefreq>monthly</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        
+        <!-- Imagem principal do perfil -->
         <image:image>
             <image:loc>https://iasmimborgespsi.com.br/assets/img/perfil.png</image:loc>
-            <image:title>Psicóloga Iasmim Borges</image:title>
-            <image:caption>Iasmim Borges, psicóloga clínica especializada em terapia online</image:caption>
+            <image:title>Psicóloga Iasmim Borges - Terapia Online</image:title>
+            <image:caption>Iasmim Borges, psicóloga clínica CRP 21/06356, especializada em terapia online para ansiedade e autoconhecimento</image:caption>
+            <image:geo_location>Brasil</image:geo_location>
+            <image:license>https://iasmimborgespsi.com.br/privacidade.html</image:license>
         </image:image>
+        
+        <!-- Imagem secundária -->
         <image:image>
             <image:loc>https://iasmimborgespsi.com.br/assets/img/recorte.png</image:loc>
-            <image:title>Iasmim Borges - Psicóloga Clínica</image:title>
+            <image:title>Iasmim Borges - Psicóloga Clínica Online</image:title>
+            <image:caption>Atendimento psicológico online para adolescentes e adultos em todo o Brasil</image:caption>
+            <image:geo_location>Brasil</image:geo_location>
+        </image:image>
+
+        <!-- Imagem OG para redes sociais (se existir) -->
+        <image:image>
+            <image:loc>https://iasmimborgespsi.com.br/assets/img/og-image.jpg</image:loc>
+            <image:title>Psicóloga Iasmim Borges - Agende sua consulta</image:title>
+            <image:caption>Psicoterapia online com base em evidências científicas - Terapias Contextuais</image:caption>
         </image:image>
     </url>
+
+    <!-- ============================================
+         PÁGINA DE LINKS (Link Tree)
+         ============================================ -->
     <url>
         <loc>https://iasmimborgespsi.com.br/links.html</loc>
         <lastmod>2025-04-13</lastmod>
         <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- ============================================
+         POLÍTICA DE PRIVACIDADE
+         ============================================ -->
+    <url>
+        <loc>https://iasmimborgespsi.com.br/privacidade.html</loc>
+        <lastmod>2025-04-13</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <!-- ============================================
+         PÁGINAS ÂNCORAS (Deep Links para seções)
+         Melhora indexação de conteúdo específico
+         ============================================ -->
+    
+    <!-- Seção Sobre -->
+    <url>
+        <loc>https://iasmimborgespsi.com.br/#sobre</loc>
+        <lastmod>2025-04-13</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Seção Formação -->
+    <url>
+        <loc>https://iasmimborgespsi.com.br/#formacao</loc>
+        <lastmod>2025-04-13</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Seção Abordagem -->
+    <url>
+        <loc>https://iasmimborgespsi.com.br/#abordagem</loc>
+        <lastmod>2025-04-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Seção Como Funciona -->
+    <url>
+        <loc>https://iasmimborgespsi.com.br/#como-funciona</loc>
+        <lastmod>2025-04-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Seção FAQ -->
+    <url>
+        <loc>https://iasmimborgespsi.com.br/#faq</loc>
+        <lastmod>2025-04-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Seção Contato -->
+    <url>
+        <loc>https://iasmimborgespsi.com.br/#contato</loc>
+        <lastmod>2025-04-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
 </urlset>
