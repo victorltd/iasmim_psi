@@ -193,8 +193,11 @@ function trackWhatsAppClicks() {
     
     whatsappLinks.forEach(link => {
         link.addEventListener('click', () => {
-            // Se tiver Google Analytics
             if (typeof gtag === 'function') {
+                // Conversão do Google Ads
+                gtag('event', 'conversion', {'send_to': 'AW-18137932402/tjXWCMqVkKccEPLE68hD'});
+
+                // Evento no Google Analytics
                 gtag('event', 'click', {
                     'event_category': 'WhatsApp',
                     'event_label': 'Contato via WhatsApp',
